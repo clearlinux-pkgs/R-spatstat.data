@@ -4,13 +4,12 @@
 #
 Name     : R-spatstat.data
 Version  : 1.4.0
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/spatstat.data_1.4-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.data_1.4-0.tar.gz
 Summary  : Datasets for 'spatstat'
 Group    : Development/Tools
 License  : GPL-2.0+
-Requires: R-spatstat.utils
 BuildRequires : R-spatstat.utils
 BuildRequires : buildreq-R
 
@@ -25,11 +24,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1538661925
+export SOURCE_DATE_EPOCH=1552848922
 
 %install
+export SOURCE_DATE_EPOCH=1552848922
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1538661925
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -64,8 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc -l %{buildroot}/usr/lib64/R/library spatstat.data|| : 
-cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
+R CMD check --no-manual --no-examples --no-codoc  spatstat.data || :
 
 
 %files
