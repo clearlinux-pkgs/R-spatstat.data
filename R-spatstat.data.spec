@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.data
 Version  : 1.4.3
-Release  : 26
+Release  : 27
 URL      : https://cran.r-project.org/src/contrib/spatstat.data_1.4-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.data_1.4-3.tar.gz
 Summary  : Datasets for 'spatstat'
