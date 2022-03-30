@@ -3,3 +3,4 @@ R-spatstat
 R-spatstat.core
 R-spatstat.geom
 R-spatstat.linnet
+R-spatstat.random
