@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.data
 Version  : 2.2.0
-Release  : 47
+Release  : 48
 URL      : https://cran.r-project.org/src/contrib/spatstat.data_2.2-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.data_2.2-0.tar.gz
 Summary  : Datasets for 'spatstat' Family
