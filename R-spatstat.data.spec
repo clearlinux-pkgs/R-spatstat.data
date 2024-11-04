@@ -7,7 +7,7 @@
 #
 Name     : R-spatstat.data
 Version  : 3.1.2
-Release  : 62
+Release  : 63
 URL      : https://cran.r-project.org/src/contrib/spatstat.data_3.1-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.data_3.1-2.tar.gz
 Summary  : Datasets for 'spatstat' Family
