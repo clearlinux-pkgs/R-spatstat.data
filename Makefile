@@ -1,5 +1,5 @@
 PKG_NAME := R-spatstat.data
-URL = https://cran.r-project.org/src/contrib/spatstat.data_3.1-2.tar.gz
+URL = https://ftp.osuosl.org/pub/cran/src/contrib/spatstat.data_3.1-4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
