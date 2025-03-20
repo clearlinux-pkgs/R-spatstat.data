@@ -1,4 +1,27 @@
 
+        CHANGES IN spatstat.data VERSION 3.1-6
+
+OVERVIEW
+
+    o Removed an unsafe URL from documentation.
+
+        CHANGES IN spatstat.data VERSION 3.1-5
+
+OVERVIEW
+
+    o We thank Dr Sebastian Meyer, Dr Johannes Elias and Prof Dr Ulrich Vogel
+    for contributions.
+    
+    o New dataset 'meningitis'.
+    
+    o Updates to documentation.
+    
+NEW DATASETS
+
+    o meningitis
+    Spatial locations of cases of meningitis in Germany.
+    [Extracted from the 'surveillance' package, converted and simplified]
+
         CHANGES IN spatstat.data VERSION 3.1-4
 
 OVERVIEW
